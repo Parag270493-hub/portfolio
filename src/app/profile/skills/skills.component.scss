@@ -1,0 +1,8 @@
+.skill-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-card:hover {
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 0.5rem 1rem rgba(0, 123, 255, 0.25); /* Bootstrap primary */
+}
